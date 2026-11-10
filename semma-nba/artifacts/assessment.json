@@ -27,6 +27,20 @@
       "roc_auc": 0.6516350016017348
     }
   },
+  "paired_date_bootstrap": [
+    {
+      "reference": "Home win rate",
+      "selected_minus_reference": -0.038559096146973434,
+      "lower_95": -0.055268944755867154,
+      "upper_95": -0.021680549420348402
+    },
+    {
+      "reference": "Random forest",
+      "selected_minus_reference": -0.004340517270177011,
+      "lower_95": -0.00882996978802444,
+      "upper_95": 0.00036775432528718833
+    }
+  ],
   "example": {
     "date": "2018-10-16",
     "home": "Celtics",

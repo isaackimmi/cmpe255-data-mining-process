@@ -33,11 +33,11 @@ The baseline predicts the same outcome frequencies for every matchup. The learne
 | Outcome frequencies | 1.0540 | 0.2134 |
 | Elo difference and neutral flag | 0.8765 | 0.4423 |
 
-The model improved both metrics on this split. Its log loss was 0.8528 for 2,219 non-neutral matches and 0.9254 for 1,078 neutral matches. A draw was never the model's highest probability class, even though 753 matches ended in a draw. The probabilities are more informative for this use case than the most likely label alone. The dataset does not capture lineups, injuries, or other context that changes shortly before a match.
+The model improved both metrics on this split. Its paired log-loss difference was −0.1775. A 95% interval from 1,000 resamples of match dates was −0.1975 to −0.1582. This interval describes the test cohort. Its log loss was 0.8528 for 2,219 non-neutral matches and 0.9254 for 1,078 neutral matches. A draw was never the model's highest probability class, even though 753 matches ended in a draw. The probabilities are more informative for this use case than the most likely label alone. The dataset does not capture lineups, injuries, or other context that changes shortly before a match.
 
 ## 6. Deployment
 
-The [prediction model](artifacts/prediction_model.json) contains the model coefficients, scaling values, class labels, and team ratings through December 31, 2025. In a fresh Colab runtime, run the standalone scoring cell. It downloads the JSON from GitHub when a local copy is absent. It needs only the file, two distinct team names, and the venue flag. It can score the match without a dataset download or retraining.
+The [prediction model](artifacts/prediction_model.json) contains the model coefficients, scaling values, class labels, and team ratings through December 31, 2025. In a fresh Colab runtime, run the standalone scoring cell. When a local copy is absent, it downloads the JSON from a fixed GitHub commit and checks its SHA-256 fingerprint. It needs only the file, two distinct team names, and the venue flag. It can score the match without a dataset download or retraining.
 
 The neutral-venue Argentina versus France example produces about 48.4% for Argentina to win, 25.4% for a draw, and 26.3% for France to win. The notebook tests that the exported artifact reproduces the trained estimator's probabilities. Values can appear to sum to slightly above or below 100% due to rounding.
 

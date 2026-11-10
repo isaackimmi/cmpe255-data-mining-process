@@ -1,6 +1,6 @@
-circuit,grid_band,later_entries,later_gain_rate,assessment,later_races
-Bahrain International Circuit,1–5,7,0.42857142857142855,Inconclusive,2
-Marina Bay Street Circuit,11–15,8,0.875,Inconclusive,2
-Circuit of the Americas,6–10,7,0.7142857142857143,Inconclusive,2
-Circuit of the Americas,11–15,10,0.6,Did not stay above band rate,2
-Autódromo Hermanos Rodríguez,6–10,9,0.4444444444444444,Inconclusive,2
+circuit,grid_band,later_entries,later_gain_rate,assessment,later_races,numbered_starts,eligible_finishes,gain_rate_all_numbered
+Bahrain International Circuit,1–5,7,0.42857142857142855,Inconclusive,2,10,7,0.3
+Marina Bay Street Circuit,11–15,8,0.875,Inconclusive,2,10,8,0.7
+Circuit of the Americas,6–10,7,0.7142857142857143,Inconclusive,2,10,7,0.5
+Circuit of the Americas,11–15,10,0.6,Did not stay above band rate,2,10,10,0.6
+Autódromo Hermanos Rodríguez,6–10,9,0.4444444444444444,Inconclusive,2,10,9,0.4
