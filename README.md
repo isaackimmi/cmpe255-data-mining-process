@@ -1,6 +1,6 @@
 # CMPE 255 Data Mining Process Assignment
 
-Three projects apply CRISP-DM, SEMMA, and KDD to three distinct Kaggle datasets. Each notebook contains the methodology, code, and saved outputs.
+Three projects apply CRISP-DM, SEMMA, and KDD to three distinct Kaggle datasets. Each notebook opens with a methodology map and includes stage-level checks, explanations, and saved outputs.
 
 | Project | Colab | Medium article | YouTube |
 | --- | --- | --- | --- |

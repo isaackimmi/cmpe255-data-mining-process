@@ -24,7 +24,7 @@ The test simulation updates team ratings with completed matches from earlier dat
 
 ## 4. Modeling
 
-The baseline predicts the same outcome frequencies for every matchup. The learned model scales the Elo difference and venue flag, then uses multinomial logistic regression to estimate three probabilities. Compare three values of the regularization parameter C using validation log loss. Select C = 10 and refit both estimators with the combined training and validation rows.
+The baseline predicts the same outcome frequencies for every matchup. The learned model scales the Elo difference and venue flag, then uses multinomial logistic regression to estimate three probabilities. Compare three values of the regularization parameter C using validation log loss. Select C = 10 and refit both estimators with the combined training and validation rows. Before refitting, compare the training-only model with the prior in each validation year. The model had lower log loss in all four years. The smallest gap occurred in 2020, the smallest validation cohort.
 
 ## 5. Evaluation
 
