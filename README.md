@@ -16,6 +16,6 @@ Open a notebook in Colab and use a CPU runtime. Select **Runtime → Run all**. 
 | --- | --- | --- |
 | CRISP-DM | [International Football Results, v138](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017/versions/138) | [Detailed report](crisp-dm-soccer/report.md), [evaluation](crisp-dm-soccer/artifacts/evaluation.json), [saved prediction model](crisp-dm-soccer/artifacts/prediction_model.json) |
 | SEMMA | [NBA Games Data, v10](https://www.kaggle.com/datasets/nathanlauga/nba-games/versions/10) | [Held-out assessment](semma-nba/artifacts/assessment.json) |
-| KDD | [Formula 1 World Championship, v24](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/versions/24) | [Scope counts](kdd-formula1/artifacts/scope.json), [pattern comparison](kdd-formula1/artifacts/pattern_comparison.csv) |
+| KDD | [Formula 1 World Championship, v24](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020/versions/24) | [Scope counts](kdd-formula1/artifacts/scope.json), [pattern comparison](kdd-formula1/artifacts/pattern_comparison.csv), [race counts](kdd-formula1/artifacts/later_race_support.csv) |
 
-For the soccer inference demo in a fresh runtime, download the saved prediction model above and upload it to Colab. Follow the Deployment section to run the scoring cell without training. The model uses ratings through December 31, 2025.
+For the soccer inference demo in a fresh runtime, run the standalone scoring cell in the Deployment section. It loads the saved prediction model without training. The model uses ratings through December 31, 2025.

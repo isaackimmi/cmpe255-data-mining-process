@@ -37,7 +37,7 @@ The model improved both metrics on this split. Its log loss was 0.8528 for 2,219
 
 ## 6. Deployment
 
-The [prediction model](artifacts/prediction_model.json) contains the model coefficients, scaling values, class labels, and team ratings through December 31, 2025. Upload that JSON to a fresh Colab runtime and use the scoring cell in the notebook. It needs only the file, two distinct team names, and the venue flag. It can score the match without a dataset download or retraining.
+The [prediction model](artifacts/prediction_model.json) contains the model coefficients, scaling values, class labels, and team ratings through December 31, 2025. In a fresh Colab runtime, run the standalone scoring cell. It downloads the JSON from GitHub when a local copy is absent. It needs only the file, two distinct team names, and the venue flag. It can score the match without a dataset download or retraining.
 
 The neutral-venue Argentina versus France example produces about 48.4% for Argentina to win, 25.4% for a draw, and 26.3% for France to win. The notebook tests that the exported artifact reproduces the trained estimator's probabilities. Values can appear to sum to slightly above or below 100% due to rounding.
 
