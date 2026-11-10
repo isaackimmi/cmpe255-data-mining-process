@@ -1,0 +1,37 @@
+{
+  "split_rows": {
+    "train": 16855,
+    "validation": 1230,
+    "test": 1230
+  },
+  "selected": "Logistic regression",
+  "validation_log_loss": {
+    "Home win rate": 0.6812785382141942,
+    "Logistic regression": 0.644620911477375,
+    "Random forest": 0.6494002840629377
+  },
+  "metrics": {
+    "Home win rate": {
+      "accuracy": 0.5926829268292683,
+      "log_loss": 0.6758785262048316,
+      "roc_auc": 0.5
+    },
+    "Logistic regression": {
+      "accuracy": 0.6317073170731707,
+      "log_loss": 0.6373194300578582,
+      "roc_auc": 0.6597668859811241
+    },
+    "Random forest": {
+      "accuracy": 0.6268292682926829,
+      "log_loss": 0.6416599473280352,
+      "roc_auc": 0.6516350016017348
+    }
+  },
+  "example": {
+    "date": "2018-10-16",
+    "home": "Celtics",
+    "away": "76ers",
+    "model_home_win_probability": 0.3713319596713034,
+    "actual_home_win": true
+  }
+}

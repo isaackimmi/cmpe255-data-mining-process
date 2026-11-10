@@ -1,0 +1,36 @@
+{
+  "test_matches": 3297,
+  "selected_C": 10.0,
+  "metrics": {
+    "Training frequencies": {
+      "log_loss": 1.054031390639303,
+      "macro_f1": 0.21337732865883
+    },
+    "Elo and venue": {
+      "log_loss": 0.8765145531994436,
+      "macro_f1": 0.442288234062425
+    }
+  },
+  "labels": [
+    "Draw",
+    "Loss",
+    "Win"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      278,
+      475
+    ],
+    [
+      0,
+      634,
+      358
+    ],
+    [
+      0,
+      199,
+      1353
+    ]
+  ]
+}
