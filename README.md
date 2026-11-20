@@ -4,9 +4,9 @@ Three projects apply CRISP-DM, SEMMA, and KDD to three distinct Kaggle datasets.
 
 | Project | Colab | Medium article | YouTube |
 | --- | --- | --- | --- |
-| CRISP-DM · International soccer | [Open in Colab](https://colab.research.google.com/github/isaackimmi/cmpe255-data-mining-process/blob/main/crisp-dm-soccer/notebook.ipynb) | From Match History to Kickoff Predictions · draft | [Watch walkthrough](https://youtu.be/Kjj3Ffcz_Gg) |
-| SEMMA · NBA | [Open in Colab](https://colab.research.google.com/github/isaackimmi/cmpe255-data-mining-process/blob/main/semma-nba/notebook.ipynb) | Can Recent Form Predict an NBA Home Win? · draft | [Watch walkthrough](https://youtu.be/Y2aXxSJtipY) |
-| KDD · Formula 1 | [Open in Colab](https://colab.research.google.com/github/isaackimmi/cmpe255-data-mining-process/blob/main/kdd-formula1/notebook.ipynb) | Where Do Formula 1 Drivers Gain Places? · draft | [Watch walkthrough](https://youtu.be/5WD5Zyfi7KQ) |
+| CRISP-DM · International soccer | [Open in Colab](https://colab.research.google.com/github/isaackimmi/cmpe255-data-mining-process/blob/main/crisp-dm-soccer/notebook.ipynb) | [From Match History to Kickoff Predictions](https://medium.com/@isaac.kim_79645/from-match-history-to-kickoff-predictions-a91fd30be450) | [Watch walkthrough](https://youtu.be/Kjj3Ffcz_Gg) |
+| SEMMA · NBA | [Open in Colab](https://colab.research.google.com/github/isaackimmi/cmpe255-data-mining-process/blob/main/semma-nba/notebook.ipynb) | [Can Recent Form Predict an NBA Home Win?](https://medium.com/@isaac.kim_79645/can-recent-form-predict-an-nba-home-win-2fff7bbd18a8) | [Watch walkthrough](https://youtu.be/Y2aXxSJtipY) |
+| KDD · Formula 1 | [Open in Colab](https://colab.research.google.com/github/isaackimmi/cmpe255-data-mining-process/blob/main/kdd-formula1/notebook.ipynb) | [Where Do Formula 1 Drivers Gain Places?](https://medium.com/@isaac.kim_79645/where-do-formula-1-drivers-gain-places-9be7c9ed6aa5) | [Watch walkthrough](https://youtu.be/5WD5Zyfi7KQ) |
 
 ## Run the projects
 
